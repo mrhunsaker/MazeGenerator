@@ -1,0 +1,73 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "OpenSCAD: Render to STL",
+      "type": "shell",
+      "command": "C:\\Program Files\\OpenSCAD (Nightly)\\openscad.exe",
+      "args": [
+        "-o",
+        "maze_3d.stl",
+        "maze_3d.scad"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": false
+      },
+      "problemMatcher": [],
+      "detail": "Render maze_3d.scad to STL file"
+    },
+    {
+      "label": "OpenSCAD: Preview",
+      "type": "shell",
+      "command": "C:\\Program Files\\OpenSCAD (Nightly)\\openscad.exe",
+      "args": [
+        "maze_3d.scad"
+      ],
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "silent",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": false
+      },
+      "problemMatcher": [],
+      "detail": "Open maze_3d.scad in OpenSCAD GUI"
+    },
+    {
+      "label": "OpenSCAD: Render to PNG",
+      "type": "shell",
+      "command": "C:\\Program Files\\OpenSCAD (Nightly)\\openscad.exe",
+      "args": [
+        "-o",
+        "maze_3d.png",
+        "--imgsize=1920,1080",
+        "--view=axes,scales",
+        "--projection=ortho",
+        "--colorscheme=Tomorrow Night",
+        "maze_3d.scad"
+      ],
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": false
+      },
+      "problemMatcher": [],
+      "detail": "Render maze_3d.scad to PNG image"
+    }
+  ]
+}

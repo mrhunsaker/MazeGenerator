@@ -1,0 +1,318 @@
+{
+  "end_cell": {
+    "col": 19,
+    "row": 19
+  },
+  "generator": "labyrinth.lua",
+  "grid_cells_per_side": 19,
+  "optimal_path_steps": 36,
+  "outputs": {
+    "maze_svg": "mazes/maze0207.svg",
+    "params_json": "mazes/maze0207.json",
+    "solution_svg": "mazes/maze0207_solution.svg"
+  },
+  "physical_size_mm": 200,
+  "seed": 207,
+  "solution_overhead_pct": 100.0,
+  "solution_path": [
+    {
+      "col": 1,
+      "row": 1
+    },
+    {
+      "col": 1,
+      "row": 2
+    },
+    {
+      "col": 1,
+      "row": 3
+    },
+    {
+      "col": 1,
+      "row": 4
+    },
+    {
+      "col": 2,
+      "row": 4
+    },
+    {
+      "col": 2,
+      "row": 5
+    },
+    {
+      "col": 2,
+      "row": 6
+    },
+    {
+      "col": 2,
+      "row": 7
+    },
+    {
+      "col": 2,
+      "row": 8
+    },
+    {
+      "col": 2,
+      "row": 9
+    },
+    {
+      "col": 3,
+      "row": 9
+    },
+    {
+      "col": 3,
+      "row": 8
+    },
+    {
+      "col": 4,
+      "row": 8
+    },
+    {
+      "col": 4,
+      "row": 7
+    },
+    {
+      "col": 5,
+      "row": 7
+    },
+    {
+      "col": 5,
+      "row": 6
+    },
+    {
+      "col": 6,
+      "row": 6
+    },
+    {
+      "col": 6,
+      "row": 7
+    },
+    {
+      "col": 7,
+      "row": 7
+    },
+    {
+      "col": 7,
+      "row": 8
+    },
+    {
+      "col": 7,
+      "row": 9
+    },
+    {
+      "col": 8,
+      "row": 9
+    },
+    {
+      "col": 8,
+      "row": 8
+    },
+    {
+      "col": 9,
+      "row": 8
+    },
+    {
+      "col": 10,
+      "row": 8
+    },
+    {
+      "col": 10,
+      "row": 9
+    },
+    {
+      "col": 10,
+      "row": 10
+    },
+    {
+      "col": 10,
+      "row": 11
+    },
+    {
+      "col": 9,
+      "row": 11
+    },
+    {
+      "col": 9,
+      "row": 10
+    },
+    {
+      "col": 8,
+      "row": 10
+    },
+    {
+      "col": 8,
+      "row": 11
+    },
+    {
+      "col": 8,
+      "row": 12
+    },
+    {
+      "col": 9,
+      "row": 12
+    },
+    {
+      "col": 10,
+      "row": 12
+    },
+    {
+      "col": 10,
+      "row": 13
+    },
+    {
+      "col": 9,
+      "row": 13
+    },
+    {
+      "col": 8,
+      "row": 13
+    },
+    {
+      "col": 8,
+      "row": 14
+    },
+    {
+      "col": 8,
+      "row": 15
+    },
+    {
+      "col": 8,
+      "row": 16
+    },
+    {
+      "col": 9,
+      "row": 16
+    },
+    {
+      "col": 9,
+      "row": 17
+    },
+    {
+      "col": 8,
+      "row": 17
+    },
+    {
+      "col": 7,
+      "row": 17
+    },
+    {
+      "col": 7,
+      "row": 18
+    },
+    {
+      "col": 6,
+      "row": 18
+    },
+    {
+      "col": 6,
+      "row": 17
+    },
+    {
+      "col": 6,
+      "row": 16
+    },
+    {
+      "col": 7,
+      "row": 16
+    },
+    {
+      "col": 7,
+      "row": 15
+    },
+    {
+      "col": 7,
+      "row": 14
+    },
+    {
+      "col": 6,
+      "row": 14
+    },
+    {
+      "col": 6,
+      "row": 15
+    },
+    {
+      "col": 5,
+      "row": 15
+    },
+    {
+      "col": 5,
+      "row": 16
+    },
+    {
+      "col": 5,
+      "row": 17
+    },
+    {
+      "col": 5,
+      "row": 18
+    },
+    {
+      "col": 5,
+      "row": 19
+    },
+    {
+      "col": 6,
+      "row": 19
+    },
+    {
+      "col": 7,
+      "row": 19
+    },
+    {
+      "col": 8,
+      "row": 19
+    },
+    {
+      "col": 9,
+      "row": 19
+    },
+    {
+      "col": 10,
+      "row": 19
+    },
+    {
+      "col": 11,
+      "row": 19
+    },
+    {
+      "col": 12,
+      "row": 19
+    },
+    {
+      "col": 13,
+      "row": 19
+    },
+    {
+      "col": 14,
+      "row": 19
+    },
+    {
+      "col": 15,
+      "row": 19
+    },
+    {
+      "col": 16,
+      "row": 19
+    },
+    {
+      "col": 17,
+      "row": 19
+    },
+    {
+      "col": 18,
+      "row": 19
+    },
+    {
+      "col": 19,
+      "row": 19
+    }
+  ],
+  "solution_path_steps": 72,
+  "start_cell": {
+    "col": 1,
+    "row": 1
+  },
+  "svg_canvas_px": 760,
+  "version": "1.0.0"
+}

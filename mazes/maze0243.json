@@ -1,0 +1,334 @@
+{
+  "end_cell": {
+    "col": 19,
+    "row": 19
+  },
+  "generator": "labyrinth.lua",
+  "grid_cells_per_side": 19,
+  "optimal_path_steps": 36,
+  "outputs": {
+    "maze_svg": "mazes/maze0243.svg",
+    "params_json": "mazes/maze0243.json",
+    "solution_svg": "mazes/maze0243_solution.svg"
+  },
+  "physical_size_mm": 200,
+  "seed": 243,
+  "solution_overhead_pct": 111.1,
+  "solution_path": [
+    {
+      "col": 1,
+      "row": 1
+    },
+    {
+      "col": 1,
+      "row": 2
+    },
+    {
+      "col": 1,
+      "row": 3
+    },
+    {
+      "col": 1,
+      "row": 4
+    },
+    {
+      "col": 1,
+      "row": 5
+    },
+    {
+      "col": 2,
+      "row": 5
+    },
+    {
+      "col": 3,
+      "row": 5
+    },
+    {
+      "col": 3,
+      "row": 6
+    },
+    {
+      "col": 2,
+      "row": 6
+    },
+    {
+      "col": 1,
+      "row": 6
+    },
+    {
+      "col": 1,
+      "row": 7
+    },
+    {
+      "col": 1,
+      "row": 8
+    },
+    {
+      "col": 1,
+      "row": 9
+    },
+    {
+      "col": 1,
+      "row": 10
+    },
+    {
+      "col": 2,
+      "row": 10
+    },
+    {
+      "col": 3,
+      "row": 10
+    },
+    {
+      "col": 4,
+      "row": 10
+    },
+    {
+      "col": 5,
+      "row": 10
+    },
+    {
+      "col": 5,
+      "row": 11
+    },
+    {
+      "col": 5,
+      "row": 12
+    },
+    {
+      "col": 5,
+      "row": 13
+    },
+    {
+      "col": 6,
+      "row": 13
+    },
+    {
+      "col": 6,
+      "row": 12
+    },
+    {
+      "col": 6,
+      "row": 11
+    },
+    {
+      "col": 6,
+      "row": 10
+    },
+    {
+      "col": 7,
+      "row": 10
+    },
+    {
+      "col": 7,
+      "row": 9
+    },
+    {
+      "col": 6,
+      "row": 9
+    },
+    {
+      "col": 6,
+      "row": 8
+    },
+    {
+      "col": 7,
+      "row": 8
+    },
+    {
+      "col": 8,
+      "row": 8
+    },
+    {
+      "col": 8,
+      "row": 9
+    },
+    {
+      "col": 9,
+      "row": 9
+    },
+    {
+      "col": 9,
+      "row": 8
+    },
+    {
+      "col": 9,
+      "row": 7
+    },
+    {
+      "col": 9,
+      "row": 6
+    },
+    {
+      "col": 9,
+      "row": 5
+    },
+    {
+      "col": 9,
+      "row": 4
+    },
+    {
+      "col": 9,
+      "row": 3
+    },
+    {
+      "col": 8,
+      "row": 3
+    },
+    {
+      "col": 8,
+      "row": 2
+    },
+    {
+      "col": 7,
+      "row": 2
+    },
+    {
+      "col": 7,
+      "row": 1
+    },
+    {
+      "col": 8,
+      "row": 1
+    },
+    {
+      "col": 9,
+      "row": 1
+    },
+    {
+      "col": 9,
+      "row": 2
+    },
+    {
+      "col": 10,
+      "row": 2
+    },
+    {
+      "col": 11,
+      "row": 2
+    },
+    {
+      "col": 12,
+      "row": 2
+    },
+    {
+      "col": 12,
+      "row": 3
+    },
+    {
+      "col": 12,
+      "row": 4
+    },
+    {
+      "col": 13,
+      "row": 4
+    },
+    {
+      "col": 14,
+      "row": 4
+    },
+    {
+      "col": 14,
+      "row": 3
+    },
+    {
+      "col": 14,
+      "row": 2
+    },
+    {
+      "col": 15,
+      "row": 2
+    },
+    {
+      "col": 16,
+      "row": 2
+    },
+    {
+      "col": 17,
+      "row": 2
+    },
+    {
+      "col": 17,
+      "row": 3
+    },
+    {
+      "col": 18,
+      "row": 3
+    },
+    {
+      "col": 18,
+      "row": 4
+    },
+    {
+      "col": 18,
+      "row": 5
+    },
+    {
+      "col": 19,
+      "row": 5
+    },
+    {
+      "col": 19,
+      "row": 6
+    },
+    {
+      "col": 19,
+      "row": 7
+    },
+    {
+      "col": 19,
+      "row": 8
+    },
+    {
+      "col": 19,
+      "row": 9
+    },
+    {
+      "col": 19,
+      "row": 10
+    },
+    {
+      "col": 19,
+      "row": 11
+    },
+    {
+      "col": 19,
+      "row": 12
+    },
+    {
+      "col": 19,
+      "row": 13
+    },
+    {
+      "col": 19,
+      "row": 14
+    },
+    {
+      "col": 19,
+      "row": 15
+    },
+    {
+      "col": 19,
+      "row": 16
+    },
+    {
+      "col": 19,
+      "row": 17
+    },
+    {
+      "col": 19,
+      "row": 18
+    },
+    {
+      "col": 19,
+      "row": 19
+    }
+  ],
+  "solution_path_steps": 76,
+  "start_cell": {
+    "col": 1,
+    "row": 1
+  },
+  "svg_canvas_px": 760,
+  "version": "1.0.0"
+}

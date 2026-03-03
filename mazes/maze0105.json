@@ -1,0 +1,326 @@
+{
+  "end_cell": {
+    "col": 19,
+    "row": 19
+  },
+  "generator": "labyrinth.lua",
+  "grid_cells_per_side": 19,
+  "optimal_path_steps": 36,
+  "outputs": {
+    "maze_svg": "mazes/maze0105.svg",
+    "params_json": "mazes/maze0105.json",
+    "solution_svg": "mazes/maze0105_solution.svg"
+  },
+  "physical_size_mm": 200,
+  "seed": 105,
+  "solution_overhead_pct": 105.5,
+  "solution_path": [
+    {
+      "col": 1,
+      "row": 1
+    },
+    {
+      "col": 1,
+      "row": 2
+    },
+    {
+      "col": 1,
+      "row": 3
+    },
+    {
+      "col": 2,
+      "row": 3
+    },
+    {
+      "col": 2,
+      "row": 2
+    },
+    {
+      "col": 3,
+      "row": 2
+    },
+    {
+      "col": 4,
+      "row": 2
+    },
+    {
+      "col": 4,
+      "row": 1
+    },
+    {
+      "col": 5,
+      "row": 1
+    },
+    {
+      "col": 5,
+      "row": 2
+    },
+    {
+      "col": 5,
+      "row": 3
+    },
+    {
+      "col": 4,
+      "row": 3
+    },
+    {
+      "col": 4,
+      "row": 4
+    },
+    {
+      "col": 5,
+      "row": 4
+    },
+    {
+      "col": 6,
+      "row": 4
+    },
+    {
+      "col": 7,
+      "row": 4
+    },
+    {
+      "col": 7,
+      "row": 3
+    },
+    {
+      "col": 6,
+      "row": 3
+    },
+    {
+      "col": 6,
+      "row": 2
+    },
+    {
+      "col": 6,
+      "row": 1
+    },
+    {
+      "col": 7,
+      "row": 1
+    },
+    {
+      "col": 7,
+      "row": 2
+    },
+    {
+      "col": 8,
+      "row": 2
+    },
+    {
+      "col": 8,
+      "row": 1
+    },
+    {
+      "col": 9,
+      "row": 1
+    },
+    {
+      "col": 10,
+      "row": 1
+    },
+    {
+      "col": 10,
+      "row": 2
+    },
+    {
+      "col": 10,
+      "row": 3
+    },
+    {
+      "col": 9,
+      "row": 3
+    },
+    {
+      "col": 8,
+      "row": 3
+    },
+    {
+      "col": 8,
+      "row": 4
+    },
+    {
+      "col": 9,
+      "row": 4
+    },
+    {
+      "col": 9,
+      "row": 5
+    },
+    {
+      "col": 8,
+      "row": 5
+    },
+    {
+      "col": 7,
+      "row": 5
+    },
+    {
+      "col": 7,
+      "row": 6
+    },
+    {
+      "col": 6,
+      "row": 6
+    },
+    {
+      "col": 6,
+      "row": 5
+    },
+    {
+      "col": 5,
+      "row": 5
+    },
+    {
+      "col": 4,
+      "row": 5
+    },
+    {
+      "col": 4,
+      "row": 6
+    },
+    {
+      "col": 5,
+      "row": 6
+    },
+    {
+      "col": 5,
+      "row": 7
+    },
+    {
+      "col": 5,
+      "row": 8
+    },
+    {
+      "col": 6,
+      "row": 8
+    },
+    {
+      "col": 6,
+      "row": 7
+    },
+    {
+      "col": 7,
+      "row": 7
+    },
+    {
+      "col": 7,
+      "row": 8
+    },
+    {
+      "col": 8,
+      "row": 8
+    },
+    {
+      "col": 9,
+      "row": 8
+    },
+    {
+      "col": 9,
+      "row": 9
+    },
+    {
+      "col": 9,
+      "row": 10
+    },
+    {
+      "col": 9,
+      "row": 11
+    },
+    {
+      "col": 8,
+      "row": 11
+    },
+    {
+      "col": 7,
+      "row": 11
+    },
+    {
+      "col": 7,
+      "row": 12
+    },
+    {
+      "col": 8,
+      "row": 12
+    },
+    {
+      "col": 9,
+      "row": 12
+    },
+    {
+      "col": 9,
+      "row": 13
+    },
+    {
+      "col": 10,
+      "row": 13
+    },
+    {
+      "col": 11,
+      "row": 13
+    },
+    {
+      "col": 12,
+      "row": 13
+    },
+    {
+      "col": 13,
+      "row": 13
+    },
+    {
+      "col": 13,
+      "row": 14
+    },
+    {
+      "col": 13,
+      "row": 15
+    },
+    {
+      "col": 14,
+      "row": 15
+    },
+    {
+      "col": 14,
+      "row": 16
+    },
+    {
+      "col": 15,
+      "row": 16
+    },
+    {
+      "col": 16,
+      "row": 16
+    },
+    {
+      "col": 16,
+      "row": 17
+    },
+    {
+      "col": 16,
+      "row": 18
+    },
+    {
+      "col": 16,
+      "row": 19
+    },
+    {
+      "col": 17,
+      "row": 19
+    },
+    {
+      "col": 18,
+      "row": 19
+    },
+    {
+      "col": 19,
+      "row": 19
+    }
+  ],
+  "solution_path_steps": 74,
+  "start_cell": {
+    "col": 1,
+    "row": 1
+  },
+  "svg_canvas_px": 760,
+  "version": "1.0.0"
+}

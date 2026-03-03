@@ -1,0 +1,47 @@
+{
+    "fileFormatVersion": "1",
+    "parameterSets": {
+        "New set 1": {
+            "corner_radius": "3",
+            "maze_height": "3.5",
+            "maze_seed": "100",
+            "plinth_height": "2",
+            "plinth_style": "0",
+            "show_solution": "0",
+            "svg_scale": "1"
+        },
+        "New set 2": {
+            "corner_radius": "3",
+            "edge_radius": "0.5",
+            "maze_height": "3.5",
+            "maze_seed": "12345",
+            "plinth_height": "2",
+            "plinth_style": "0",
+            "round_top_edges": "1",
+            "show_solution": "0",
+            "svg_scale": "1"
+        },
+        "New set 3": {
+            "corner_radius": "3",
+            "edge_radius": "0.5",
+            "maze_height": "3.5",
+            "maze_seed": "123",
+            "plinth_height": "2",
+            "plinth_style": "0",
+            "round_top_edges": "1",
+            "show_solution": "0",
+            "svg_scale": "1"
+        },
+        "New set 4": {
+            "corner_radius": "3",
+            "edge_radius": "0.5",
+            "maze_height": "3.5",
+            "maze_seed": "101112",
+            "plinth_height": "2",
+            "plinth_style": "0",
+            "round_top_edges": "1",
+            "show_solution": "0",
+            "svg_scale": "1"
+        }
+    }
+}

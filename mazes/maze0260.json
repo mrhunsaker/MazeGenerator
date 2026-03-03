@@ -1,0 +1,310 @@
+{
+  "end_cell": {
+    "col": 19,
+    "row": 19
+  },
+  "generator": "labyrinth.lua",
+  "grid_cells_per_side": 19,
+  "optimal_path_steps": 36,
+  "outputs": {
+    "maze_svg": "mazes/maze0260.svg",
+    "params_json": "mazes/maze0260.json",
+    "solution_svg": "mazes/maze0260_solution.svg"
+  },
+  "physical_size_mm": 200,
+  "seed": 260,
+  "solution_overhead_pct": 94.4,
+  "solution_path": [
+    {
+      "col": 1,
+      "row": 1
+    },
+    {
+      "col": 1,
+      "row": 2
+    },
+    {
+      "col": 1,
+      "row": 3
+    },
+    {
+      "col": 2,
+      "row": 3
+    },
+    {
+      "col": 2,
+      "row": 4
+    },
+    {
+      "col": 1,
+      "row": 4
+    },
+    {
+      "col": 1,
+      "row": 5
+    },
+    {
+      "col": 1,
+      "row": 6
+    },
+    {
+      "col": 2,
+      "row": 6
+    },
+    {
+      "col": 2,
+      "row": 7
+    },
+    {
+      "col": 3,
+      "row": 7
+    },
+    {
+      "col": 3,
+      "row": 8
+    },
+    {
+      "col": 2,
+      "row": 8
+    },
+    {
+      "col": 2,
+      "row": 9
+    },
+    {
+      "col": 3,
+      "row": 9
+    },
+    {
+      "col": 3,
+      "row": 10
+    },
+    {
+      "col": 3,
+      "row": 11
+    },
+    {
+      "col": 3,
+      "row": 12
+    },
+    {
+      "col": 4,
+      "row": 12
+    },
+    {
+      "col": 4,
+      "row": 11
+    },
+    {
+      "col": 4,
+      "row": 10
+    },
+    {
+      "col": 4,
+      "row": 9
+    },
+    {
+      "col": 4,
+      "row": 8
+    },
+    {
+      "col": 5,
+      "row": 8
+    },
+    {
+      "col": 6,
+      "row": 8
+    },
+    {
+      "col": 7,
+      "row": 8
+    },
+    {
+      "col": 7,
+      "row": 7
+    },
+    {
+      "col": 7,
+      "row": 6
+    },
+    {
+      "col": 7,
+      "row": 5
+    },
+    {
+      "col": 7,
+      "row": 4
+    },
+    {
+      "col": 8,
+      "row": 4
+    },
+    {
+      "col": 8,
+      "row": 5
+    },
+    {
+      "col": 9,
+      "row": 5
+    },
+    {
+      "col": 10,
+      "row": 5
+    },
+    {
+      "col": 11,
+      "row": 5
+    },
+    {
+      "col": 12,
+      "row": 5
+    },
+    {
+      "col": 12,
+      "row": 4
+    },
+    {
+      "col": 12,
+      "row": 3
+    },
+    {
+      "col": 13,
+      "row": 3
+    },
+    {
+      "col": 14,
+      "row": 3
+    },
+    {
+      "col": 15,
+      "row": 3
+    },
+    {
+      "col": 16,
+      "row": 3
+    },
+    {
+      "col": 16,
+      "row": 4
+    },
+    {
+      "col": 15,
+      "row": 4
+    },
+    {
+      "col": 15,
+      "row": 5
+    },
+    {
+      "col": 14,
+      "row": 5
+    },
+    {
+      "col": 14,
+      "row": 4
+    },
+    {
+      "col": 13,
+      "row": 4
+    },
+    {
+      "col": 13,
+      "row": 5
+    },
+    {
+      "col": 13,
+      "row": 6
+    },
+    {
+      "col": 13,
+      "row": 7
+    },
+    {
+      "col": 14,
+      "row": 7
+    },
+    {
+      "col": 14,
+      "row": 6
+    },
+    {
+      "col": 15,
+      "row": 6
+    },
+    {
+      "col": 16,
+      "row": 6
+    },
+    {
+      "col": 17,
+      "row": 6
+    },
+    {
+      "col": 17,
+      "row": 7
+    },
+    {
+      "col": 17,
+      "row": 8
+    },
+    {
+      "col": 17,
+      "row": 9
+    },
+    {
+      "col": 17,
+      "row": 10
+    },
+    {
+      "col": 17,
+      "row": 11
+    },
+    {
+      "col": 17,
+      "row": 12
+    },
+    {
+      "col": 17,
+      "row": 13
+    },
+    {
+      "col": 17,
+      "row": 14
+    },
+    {
+      "col": 17,
+      "row": 15
+    },
+    {
+      "col": 18,
+      "row": 15
+    },
+    {
+      "col": 18,
+      "row": 16
+    },
+    {
+      "col": 18,
+      "row": 17
+    },
+    {
+      "col": 19,
+      "row": 17
+    },
+    {
+      "col": 19,
+      "row": 18
+    },
+    {
+      "col": 19,
+      "row": 19
+    }
+  ],
+  "solution_path_steps": 70,
+  "start_cell": {
+    "col": 1,
+    "row": 1
+  },
+  "svg_canvas_px": 760,
+  "version": "1.0.0"
+}
