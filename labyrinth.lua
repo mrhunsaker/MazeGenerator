@@ -585,7 +585,7 @@ local function main()
   os.execute(string.format('if not exist "%s" mkdir "%s" 2>nul || mkdir -p "%s" 2>/dev/null', mazes_dir, mazes_dir, mazes_dir))
 
   -- Generate filenames based on seed
-  local base_name = string.format("maze%04d", seed_val)
+  local base_name = string.format("maze_%04d_square", seed_val)
   local maze_file = string.format("%s/%s.svg", mazes_dir, base_name)
   local solution_file = string.format("%s/%s_solution.svg", mazes_dir, base_name)
   local params_file = string.format("%s/%s.json", mazes_dir, base_name)

@@ -1,0 +1,127 @@
+{
+    "fileFormatVersion": "1",
+    "description": "Comprehensive OpenSCAD configuration for all maze types: square, round, and hexagonal",
+    "usage": "Select parameter sets for the maze type you want to generate. All three types share common parameters like maze_height and plinth_height.",
+    "mazeTypes": [
+        "square",
+        "round",
+        "hexagonal"
+    ],
+    "parameterSets": {
+        "Square - Batch Demo": {
+            "maze_type": "square",
+            "maze_seed": "100",
+            "grid_cells": "19",
+            "maze_height": "3.5",
+            "plinth_height": "2",
+            "corner_radius": "2.5",
+            "show_solution": "0",
+            "svg_scale": "1"
+        },
+        "Square - With Solution": {
+            "maze_type": "square",
+            "maze_seed": "54321",
+            "grid_cells": "19",
+            "maze_height": "3.5",
+            "plinth_height": "2",
+            "corner_radius": "3",
+            "round_top_edges": "1",
+            "show_solution": "1",
+            "svg_scale": "1"
+        },
+        "Round - Batch Demo": {
+            "maze_type": "round",
+            "maze_seed": "200",
+            "num_rings": "20",
+            "maze_height": "3.5",
+            "plinth_height": "2",
+            "corner_radius": "2.5",
+            "show_solution": "0",
+            "svg_scale": "1"
+        },
+        "Round - With Solution": {
+            "maze_type": "round",
+            "maze_seed": "65432",
+            "num_rings": "20",
+            "maze_height": "3.5",
+            "plinth_height": "2",
+            "corner_radius": "3",
+            "round_top_edges": "1",
+            "show_solution": "1",
+            "svg_scale": "1"
+        },
+        "Hexagonal - Batch Demo": {
+            "maze_type": "hexagonal",
+            "maze_seed": "300",
+            "hex_rings": "18",
+            "maze_height": "3.5",
+            "plinth_height": "2",
+            "corner_radius": "2.5",
+            "show_solution": "0",
+            "svg_scale": "1"
+        },
+        "Hexagonal - With Solution": {
+            "maze_type": "hexagonal",
+            "maze_seed": "76543",
+            "hex_rings": "18",
+            "maze_height": "3.5",
+            "plinth_height": "2",
+            "corner_radius": "3",
+            "round_top_edges": "1",
+            "show_solution": "1",
+            "svg_scale": "1"
+        }
+    },
+    "commonParameters": {
+        "maze_height": {
+            "description": "Height of maze walls (mm)",
+            "default": "3.5",
+            "min": "2",
+            "max": "10"
+        },
+        "plinth_height": {
+            "description": "Height of base platform (mm)",
+            "default": "2",
+            "min": "1",
+            "max": "5"
+        },
+        "corner_radius": {
+            "description": "Radius of wall corner bevels (mm)",
+            "default": "2.5",
+            "min": "0",
+            "max": "5"
+        },
+        "show_solution": {
+            "description": "Highlight solution path in red (0=off, 1=on)",
+            "default": "0",
+            "options": ["0", "1"]
+        },
+        "svg_scale": {
+            "description": "Scale factor for SVG rendering",
+            "default": "1",
+            "min": "0.5",
+            "max": "2"
+        }
+    },
+    "squareParameters": {
+        "grid_cells": {
+            "description": "N×N square grid size (odd numbers best)",
+            "default": "19",
+            "examples": ["15", "19", "21", "25"]
+        }
+    },
+    "roundParameters": {
+        "num_rings": {
+            "description": "Number of concentric rings from center to edge",
+            "default": "20",
+            "examples": ["15", "20", "25", "30"]
+        }
+    },
+    "hexagonalParameters": {
+        "hex_rings": {
+            "description": "Number of hexagonal rings from center outward",
+            "default": "18",
+            "examples": ["15", "18", "22", "25"]
+        }
+    }
+}

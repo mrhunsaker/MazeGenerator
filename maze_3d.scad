@@ -42,6 +42,9 @@ corner_radius = 3.0; // [1.0:0.5:10.0]
 svg_scale = 1.0; // [0.5:0.05:2.0]
 
 /* [Hidden] */
+// Optional explicit SVG path override (e.g., mazes/maze_0100_square_traced.svg)
+maze_svg_file = "";
+
 // Construct filename based on seed and solution flag
 // Helper function to format integer as zero-padded string (4 digits)
 function int_to_str(n) =
@@ -50,10 +53,12 @@ function int_to_str(n) =
     n < 100 ? str("00", n) :
     n < 1000 ? str("0", n) : str(n);
 
-maze_filename = str("mazes/maze", 
-                    int_to_str(floor(maze_seed)),
-                    show_solution ? "_solution" : "",
-                    "_traced.svg");
+maze_filename = maze_svg_file != ""
+    ? maze_svg_file
+    : str("mazes/maze", 
+          int_to_str(floor(maze_seed)),
+          show_solution ? "_solution" : "",
+          "_traced.svg");
 
 // Get SVG dimensions (200mm standard)
 svg_size = 200;

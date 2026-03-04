@@ -1,0 +1,48 @@
+{
+    "fileFormatVersion": "1",
+    "description": "OpenSCAD parameters for round maze generation (circular topology)",
+    "parameterSets": {
+        "Round Maze - Small": {
+            "maze_seed": "100",
+            "maze_type": "round",
+            "num_rings": "20",
+            "maze_height": "3.5",
+            "plinth_height": "2",
+            "corner_radius": "2",
+            "show_solution": "0",
+            "svg_scale": "1"
+        },
+        "Round Maze - Medium": {
+            "maze_seed": "12345",
+            "maze_type": "round",
+            "num_rings": "20",
+            "maze_height": "3.5",
+            "plinth_height": "2",
+            "corner_radius": "3",
+            "edge_radius": "0.5",
+            "round_top_edges": "1",
+            "show_solution": "0",
+            "svg_scale": "1"
+        },
+        "Round Maze with Solution": {
+            "maze_seed": "54321",
+            "maze_type": "round",
+            "num_rings": "20",
+            "maze_height": "3.5",
+            "plinth_height": "2",
+            "corner_radius": "3",
+            "show_solution": "1",
+            "svg_scale": "1"
+        },
+        "Round Maze - Batch Set 1": {
+            "maze_seed": "100",
+            "maze_type": "round",
+            "num_rings": "20",
+            "maze_height": "3.5",
+            "plinth_height": "2",
+            "corner_radius": "2.5",
+            "show_solution": "0",
+            "svg_scale": "1"
+        }
+    }
+}
